@@ -1065,7 +1065,7 @@ focus_tree = {
 		completion_reward = {
 		    LAT = {
 			    random_owned_controlled_state = {
-				    prioritize = { 880 }
+				    prioritize = { 808 }
 				    limit = {
 					    free_building_slots = {
 						    building = infrastructure
@@ -1122,7 +1122,7 @@ focus_tree = {
 			}
 			POL = {
 			    random_owned_controlled_state = {
-				    prioritize = { 997 }
+				    prioritize = { 92 }
 				    limit = {
 					    free_building_slots = {
 						    building = infrastructure
