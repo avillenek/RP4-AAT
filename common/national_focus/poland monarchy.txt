@@ -10325,6 +10325,7 @@ focus_tree = {
 		prerequisite = { focus = POL_Reaffirm_Ties_With_Romania1 }
 #		prerequisite = { focus = POL_Plan_Z1 }
 		available = {
+			has_completed_focus = POL_Plan_Z1
 			ROM = { is_owner_neighbor_of = POL }
 			NOT = { is_justifying_wargoal_against = ROM }
 			ROM = {
