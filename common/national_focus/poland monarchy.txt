@@ -10322,7 +10322,8 @@ focus_tree = {
 	focus = {
 		id = POL_Romanian_Bridgehead_Strategy1
 		icon = GFX_focus_rom_preserve_romania
-		prerequisite = { focus = POL_Reaffirm_Ties_With_Romania1 focus = POL_Plan_Z1 }
+		prerequisite = { focus = POL_Reaffirm_Ties_With_Romania1 }
+		prerequisite = { focus = POL_Plan_Z1 }
 		available = {
 			ROM = { is_owner_neighbor_of = POL }
 			NOT = { is_justifying_wargoal_against = ROM }
