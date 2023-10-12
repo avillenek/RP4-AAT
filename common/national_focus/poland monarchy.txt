@@ -14333,7 +14333,7 @@ focus_tree = {
 		cost = 7.2
 
 		available = {
-			865 = { 
+			807 = { 
 				is_controlled_by = POL
 				is_owned_by = POL
 			}

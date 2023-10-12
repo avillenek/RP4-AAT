@@ -17,6 +17,20 @@ country_event = {
 	
 	option = {
 		name = polandpow.1.a
+		country_event = { id = polandpow.2 }
+	}
+}
+
+country_event = {
+	id = polandpow.2
+	title = polandpow.2.t
+	desc = polandpow.2.d
+	picture = GFX_report_event_thank_you
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = polandpow.2.a
 	}
 }
 

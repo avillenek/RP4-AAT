@@ -7,4 +7,4 @@ tags={
 	"Historical"
 }
 name="Regnum Poloniae 4"
-supported_version="1.13.4"
+supported_version="1.13.3"
