@@ -10323,7 +10323,7 @@ focus_tree = {
 		id = POL_Romanian_Bridgehead_Strategy1
 		icon = GFX_focus_rom_preserve_romania
 		prerequisite = { focus = POL_Reaffirm_Ties_With_Romania1 }
-		prerequisite = { focus = POL_Plan_Z1 }
+#		prerequisite = { focus = POL_Plan_Z1 }
 		available = {
 			ROM = { is_owner_neighbor_of = POL }
 			NOT = { is_justifying_wargoal_against = ROM }
@@ -10368,7 +10368,8 @@ focus_tree = {
 	focus = {
 		id = POL_Silesia_Fortified_Area1
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = POL_Romanian_Bridgehead_Strategy1 focus = POL_Plan_Z1 }
+		prerequisite = { focus = POL_Romanian_Bridgehead_Strategy1 }
+		prerequisite = { focus = POL_Plan_Z1 }
 
 		available = {
 			88 = { is_owned_by = ROOT }
